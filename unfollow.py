@@ -5,7 +5,7 @@ import random
 import time
 
 def sleep_for_period_of_time():
-    limit = random.randint(7,10)
+    limit = random.randint(10,20)
     time.sleep(limit)
 
 user = input("Enter your username: ")
